@@ -1,4 +1,4 @@
-package com.detoxandroid;
+package com.iamsmart.android.client;
 
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;

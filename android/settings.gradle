@@ -1,4 +1,4 @@
-rootProject.name = 'DetoxAndroid'
+rootProject.name = 'iam-smart'
 
 include ':app'
 

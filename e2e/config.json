@@ -1,0 +1,5 @@
+{
+  "setupTestFrameworkScriptFile": "./init.js",
+  "testMatch": ["<rootDir>/**/*.spec.js?(x)"],
+  "forceExit": true
+}

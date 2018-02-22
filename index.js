@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
 import App from './App';
 
-AppRegistry.registerComponent('DetoxAndroid', () => App);
+AppRegistry.registerComponent('iam-smart', () => App);

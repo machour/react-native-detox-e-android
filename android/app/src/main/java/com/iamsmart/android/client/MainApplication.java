@@ -1,4 +1,4 @@
-package com.detoxandroid;
+package com.iamsmart.android.client;
 
 import android.app.Application;
 
