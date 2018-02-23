@@ -1,6 +1,7 @@
 {
   "setupTestFrameworkScriptFile": "./init.js",
   "testMatch": ["<rootDir>/**/*.spec.js?(x)"],
+  "transformIgnorePatterns": ["/node_modules/(?!(react-native(.*)?/|native-base(.*)?/|react-navigation/))"],
   "setupFiles": ["./testenv.js"],
   "forceExit": true
 }

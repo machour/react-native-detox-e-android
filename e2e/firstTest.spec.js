@@ -12,7 +12,10 @@ describe('Example', () => {
 
   it('should show hello screen after tap', async () => {
     await element(by.id('hello_button')).tap();
-    await expect(element(by.text('Hello!!!'))).toBeVisible();
+    await waitFor(element(by.id('hello')))
+        .toBeVisible()
+        .withTimeout(10000)
+    await expect(element(by.id('hello'))).toBeVisible();
   });
 
 })

@@ -40,7 +40,7 @@ export default class App extends Component {
   renderAfterButton() {
     return (
       <View style={{flex: 1, paddingTop: 20, justifyContent: 'center', alignItems: 'center'}}>
-        <Text style={{fontSize: 25}}>
+        <Text testID='hello' style={{fontSize: 25}}>
           {this.state.greeting}!!!
         </Text>
       </View>
