@@ -13,6 +13,9 @@
    TouchableOpacity
  } from 'react-native';
 
+// uncommenting any of these lines gets the test stuck in detox intialization
+// var DeviceInfo = require('react-native-device-info');
+// import DeviceInfo from 'react-native-device-info';
 
 export default class App extends Component {
     constructor(props) {

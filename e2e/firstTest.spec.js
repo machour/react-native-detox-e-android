@@ -4,6 +4,9 @@ describe('Example', () => {
   });
 
   it('should have welcome screen', async () => {
+    await waitFor(element(by.id('welcome')))
+        .toBeVisible()
+        .withTimeout(10000)
     await expect(element(by.id('welcome'))).toBeVisible();
   });
 

@@ -3705,6 +3705,10 @@ react-devtools-core@3.0.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-device-info@^0.15.3:
+  version "0.15.3"
+  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-0.15.3.tgz#c6bb5ed6cb27b9ac239d6fb1a50d20e00d95f71c"
+
 react-native@0.53.3:
   version "0.53.3"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.53.3.tgz#930d1de5d68866f32a4b55112fc0228e29784e8f"
